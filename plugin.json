@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "askbit",
+  "version": "1.0.0",
+  "description": "Set up Bit, the AI assistant on your website, from your editor: knowledge, your own look-up tools, publishing, leads and conversations.",
+  "author": { "name": "Bit", "url": "https://askbit.io" },
+  "homepage": "https://askbit.io/developers#mcp",
+  "repository": "https://github.com/yahyaqarni/askbit-plugins",
+  "license": "MIT",
+  "keywords": ["bit", "askbit", "chatbot", "website-assistant", "mcp", "leads"],
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/bit-setup/SKILL.md",
+      "interface": {
+        "displayName": "Bit",
+        "shortDescription": "Set up the AI assistant on your website",
+        "longDescription": "Set up Bit, the AI assistant on your website, from your editor: knowledge, your own look-up tools, publishing, leads and conversations. Needs a Bit API key from Settings, Advanced, API keys (Growth and Scale plans).",
+        "developerName": "Bit",
+        "category": "Productivity",
+        "websiteURL": "https://askbit.io",
+        "privacyPolicyURL": "https://askbit.io/legal/privacy",
+        "termsOfServiceURL": "https://askbit.io/legal/terms",
+        "defaultPrompt": "Show me my Bit sites and what each assistant knows.",
+        "composerIcon": "./assets/logo.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}

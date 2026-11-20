@@ -1,0 +1,25 @@
+{
+  "name": "askbit",
+  "description": "Set up Bit, the AI assistant on your website, from your editor: knowledge, your own look-up tools, publishing, leads and conversations.",
+  "version": "1.0.0",
+  "author": { "name": "Bit" },
+  "homepage": "https://askbit.io/developers#mcp",
+  "repository": "https://github.com/yahyaqarni/askbit-plugins",
+  "license": "MIT",
+  "keywords": ["bit", "askbit", "chatbot", "website-assistant", "mcp", "leads"],
+  "logo": "assets/logo.png",
+  "skills": "./skills/",
+  "mcpServers": {
+    "bit": {
+      "url": "https://askbit.io/mcp",
+      "headers": { "Authorization": "Bearer ${BIT_API_KEY}" }
+    }
+  },
+  "variables": {
+    "type": "object",
+    "properties": {
+      "BIT_API_KEY": { "type": "string", "description": "From Bit: Settings, Advanced, API keys. Press “Pick what an AI tool needs”. Starts with bit_." }
+    },
+    "required": ["BIT_API_KEY"]
+  }
+}

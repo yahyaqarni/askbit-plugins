@@ -1,0 +1,18 @@
+{
+  "$schema": "https://antigravity.google/schemas/v1/plugin.json",
+  "name": "askbit",
+  "displayName": "Bit",
+  "version": "1.0.0",
+  "description": "Set up Bit, the AI assistant on your website: knowledge, your own look-up tools, publishing and leads.",
+  "logo": "assets/logo.png",
+  "suggestedPrompts": [
+    "Show me my Bit sites and what each assistant knows.",
+    "Turn our order-status endpoint into a Bit tool and test it.",
+    "Summarise this week's Bit leads that are still open."
+  ],
+  "author": { "name": "Bit", "url": "https://askbit.io" },
+  "homepage": "https://askbit.io/developers#mcp",
+  "repository": "https://github.com/yahyaqarni/askbit-plugins",
+  "license": "MIT",
+  "keywords": ["bit", "askbit", "chatbot", "mcp", "leads"]
+}

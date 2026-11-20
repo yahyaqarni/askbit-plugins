@@ -1,0 +1,12 @@
+{
+  "name": "askbit",
+  "interface": { "displayName": "Bit" },
+  "plugins": [
+    {
+      "name": "askbit",
+      "source": { "source": "local", "path": "./" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}

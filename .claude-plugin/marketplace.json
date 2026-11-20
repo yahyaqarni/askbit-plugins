@@ -1,0 +1,13 @@
+{
+  "name": "askbit",
+  "owner": { "name": "Bit", "url": "https://askbit.io" },
+  "metadata": { "description": "Bit's plugin for AI coding tools." },
+  "plugins": [
+    {
+      "name": "askbit",
+      "source": "./",
+      "description": "Set up Bit, the AI assistant on your website, from your editor: knowledge, your own look-up tools, publishing, leads and conversations.",
+      "category": "productivity"
+    }
+  ]
+}

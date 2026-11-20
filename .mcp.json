@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "bit": {
+      "type": "http",
+      "url": "https://askbit.io/mcp",
+      "headers": { "Authorization": "Bearer ${user_config.api_key}" }
+    }
+  }
+}

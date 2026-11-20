@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "bit": {
+      "url": "https://askbit.io/mcp",
+      "headers": { "Authorization": "Bearer ${BIT_API_KEY}" },
+      "variables": [
+        {
+          "name": "BIT_API_KEY",
+          "title": "Bit API key",
+          "description": "From Bit: Settings, Advanced, API keys. Press “Pick what an AI tool needs”. Starts with bit_.",
+          "link": "https://askbit.io/dashboard"
+        }
+      ]
+    }
+  }
+}
